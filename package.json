@@ -1,0 +1,18 @@
+{
+  "name": "node-dupemanager",
+  "version": "1.0.0",
+  "description": "Process duplicate files",
+  "main": "lib/index.js",
+  "bin": {
+    "dupeman": "lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Reyes <kutt@katrea.net>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "sqlite3": "^3.0.0"
+  }
+}
